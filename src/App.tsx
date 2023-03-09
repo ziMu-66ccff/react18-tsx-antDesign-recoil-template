@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Suspense fallback="Loading....">
         <div className="App">{useRoutes(routes)}</div>
-        hello
       </Suspense>
     </div>
   );
